@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #1f2937;
-    padding: 20px 90px 90px 90px;
+    padding: 20px 90px 60px 90px;
 }
 .top{
     display: flex;
@@ -45,12 +45,11 @@ h1{
    font-size: 20px;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.932);
-    background-color: #2f78dd;
-    border: none;
+    background-color: #2f78dd; 
     border-radius: 7px;
+    height: 45px;
     width: 120px;
     padding: 10px 20px;
-   
 }
 img{
     height: auto;
@@ -60,7 +59,6 @@ img{
 .middle-top{
     display: flex;
     padding-top: 100px;
-  
     justify-content: space-between;
 }
 .three-elements{
@@ -68,7 +66,115 @@ img{
     flex-direction: column;
     width: 600px;
 }
+.content-1{
+display: flex;
+flex-direction: column;
+height: 300px;
+padding: 50px 100px ;
+gap: 50px;
+}
+.title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.blue-boxes{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
+.text{
+    color: rgb(114, 113, 113)
+}
+.bluebox{
+    border: 5px solid #2f78dd;
+    border-radius: 5px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+}
 
+.content-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    max-height: 300px;
+    width: auto;
+    padding: 100px 400px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+    font-weight:1;
+}
+.author{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+}
+.content-3{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 250px;
+padding: 100px;
+}
+.window{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f78dd;
+    width: 900px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+.heading{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.ad{
+    font-size: 20px;
+    color: #e5e7eb;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.sign2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.932);
+    background-color: #2f78dd; 
+    border-color: white;
+    border-radius: 7px;
+    height: 45px;
+    width: 120px;
+    padding: 10px 20px;
+}
+
+.copyright{
+    color: #e5e7eb;
+}
 footer{
-        color: #1f2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1f2937;
+        height: 100px;
+
 }
